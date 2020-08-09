@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Tangerine&family=Viaoda+Libre&display=swap"
+        rel="stylesheet">
+    <title>Harcourt Hamsa - Portfolio</title>
+</head>
+
+<body>
+    <nav id="navbar" class="navbar">
+        <p class="logo">Hamsa Harcourt.</p>
+        <div class="nav-links">
+            <a href="#" title="Oops I've not given any">Talks</a>
+            <a href="#">Projects</a>
+            <a href="#">Blog</a>
+            <a href="#" class="btn-orange">Hire me</a>
+            <i onclick="openNav()" class="fa nav-icon fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Header / Jumbotron section -->
+    <header>
+        <div class="container">
+            <p class="">Hi &#128075;, I'm Hamsa Harcort</p>
+            <h1 class="">I Advance <span class="text-green">Human Potential</span> By Building <span
+                    class="text-green">Software</span>
+                That Solve Everyday Problems</h1>
+
+            <p class="mb-3">I am currently woring on <a href="#">Talk App </a> & <a href="#">The Talk Initiative
+                </a> 🔥</p>
+
+            <a href="#" class="btn-orange">Get in touch</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h2 class="mb-3">About Me. <br />
+                <span class="text-green">I'm Quite A Character &#128175;</span>
+            </h2>
+            <p>
+                Hi, I'm Harcourt Hamsa. A fullstack software developer based in Nigeria. I am currently a student at the
+                Federal University of Technology, Owerri (FUTO). I Major at Electrical and Electronics Engineering.
+            </p>
+
+            <p>
+                I Advance Human Potential by building Software that actually solve everday problems. Sounds cool right?
+                I
+                have 2 years experience. I write articles at my <a href="#">blog</a> (you should check that out.)
+            </p>
+
+            <p>Here are a few technologies I've been workin with recently:</p>
+            <ul>
+                <li>Javascript (ES6)</li>
+                <li>HTML & CSS</li>
+                <li>React.js</li>
+                <li>Express.js</li>
+                <li>Node.js</li>
+                <li>MongoDB</li>
+                <li>Docker</li>
+            </ul>
+        </div>
+    </main>
+
+    <section class="projects-section">
+        <div class="container">
+            <h2 class="mb-3">My Projects, <br />
+                <span class="text-green">That I'm Proud Of &#127757;</span></h2>
+
+            <div class="row">
+                <div class="col project-card">
+                    <img src="./hite.jpg" />
+                    <div class="card-body">
+                        <h3 class="card-title">Talk App</h3>
+                        <p>
+                            Talk is a subset of The Talk Initiative. It is an app that
+                            connects people to mental Health specialists.
+                        </p>
+                        <button class="btn-orange">Visit website</button>
+                    </div>
+                </div>
+                <div class="col project-card">
+                    <div class="col project-card">
+                        <img src="./hite.jpg" />
+                        <div class="card-body">
+                            <h3 class="card-title">Nation wide</h3>
+                            <p>
+                                Nation wide is my pet app. It is an online banking app. It was built with MongoDB,
+                                Express.js, React.js
+                                and Node.js.
+                                Here are the login details for a test account.
+                            </p>
+                            <p>Customer ID: </p>
+                            <p>Password: </p>
+                            <button class="btn-orange">Vsit website</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <h2>REACH OUT</h2>
+            <p>I am always open to work on fun projects. In fact, anything basically that offers
+                new opportunity for growth.
+            </p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-github"></i>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <div class="popup-container" id="popup-container">
+        <aside>
+            <span onclick="closeModal()" class="float-right">&#10006;</span>
+            <p>Ever Heard of <span class="text-green">The Talk Initiative ?</span></p>
+        </aside>
+    </div>
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
