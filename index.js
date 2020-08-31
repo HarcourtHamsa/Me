@@ -8,14 +8,13 @@ function openNav () {
   }
 }
 
-// window.addEventListener ('load', e => {
-//   setTimeout (() => {
-//     const popup = document.getElementById ('popup-container');
-//     popup.style.display = 'block';
-//   }, 1000 * 4);
-// });
+window.addEventListener ('load', e => {
+  e.preventDefault (); // prevents default action
+  const loader = document.getElementById ('loader');
 
-// const closeModal = () => {
-//   const popup = document.getElementById ('popup-container');
-//   popup.style.display = 'none';
-// };
+  setTimeout (() => {
+    loader.style.display = 'none';
+  }, 1000 * 3);
+});
+
+

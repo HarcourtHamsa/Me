@@ -27,7 +27,7 @@
     <!-- Header / Jumbotron section -->
     <header>
         <div class="container">
-            <p class="">Hi &#128075;, I'm Hamsa Harcort</p>
+            <p class="">Hi &#128075;, I'm Hamsa Harcourt</p>
             <h1 class="">I Advance <span class="text-green">Human Potential</span> By Building <span
                     class="text-green">Software</span>
                 That Solve Everyday Problems</h1>
@@ -39,7 +39,7 @@
         </div>
     </header>
 
-    <main>
+    <main class="bg-white">
         <div class="container">
             <h2 class="mb-3">About Me. <br />
                 <span class="text-green">I'm Quite A Character &#128175;</span>
@@ -106,28 +106,72 @@
         </div>
     </section>
 
-    <footer>
+    <footer class="bg-white">
         <div class="container">
             <h2>REACH OUT</h2>
             <p>I am always open to work on fun projects. In fact, anything basically that offers
-                new opportunity for growth.
+                new opportunity for growth. You email me at <b>hamsaharcourt@gmail.com</b>
             </p>
-            <div class="icons">
-                <i class="fa fa-facebook"></i>
-                <i class="fa fa-twitter"></i>
-                <i class="fa fa-instagram"></i>
-                <i class="fa fa-github"></i>
-            </div>
 
+            <div class="row">
+                <div class="col">
+                    <form>
+                        <input type="text" placeholder="Name" />
+                        <input type="text" placeholder="Email" />
+                        <div class="mt-1">
+                            <textarea placeholder="message" rows="10"></textarea>
+                        </div>
+                        <button class="btn btn-orange">SEND MESSAGE</button>
+                    </form>
+                </div>
+                <div class="col p-1">
+                    <div>
+                        <h3>PHONE</h3>
+                        <p class="text-muted">+234 816 0583 193</p>
+                    </div>
+
+
+                    <div>
+                        <h3>EMAIL</h3>
+                        <p class="text-muted">hamsaharcourt@gmail.com</p>
+                    </div>
+
+                    <div>
+                        <h3>ADDRESS</h3>
+                        <p class="text-muted">Port Harcourt, Rivers State, Nigeria.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
 
+    <div class="fixed">
+        <div class="icons">
+            <div>
+                <i class="fa fa-facebook"></i>
+            </div>
 
-    <div class="popup-container" id="popup-container">
-        <aside>
-            <span onclick="closeModal()" class="float-right">&#10006;</span>
-            <p>Ever Heard of <span class="text-green">The Talk Initiative ?</span></p>
-        </aside>
+            <div>
+                <i class="fa fa-twitter"></i>
+            </div>
+
+            <div>
+                <i class="fa fa-instagram"></i>
+            </div>
+
+            <div>
+                <i class="fa fa-github"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="loader" id="loader">
+        <div class="lds-ring">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
     </div>
 
 
